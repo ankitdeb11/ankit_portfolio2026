@@ -8,9 +8,9 @@ const Data = () => {
 
 
     const [text] = useTypewriter({
-        words: ['Software Developer', 'Visual Effects Editor', 'Photographer'],
+        words: ['Software Developer', 'Visual Effects Editor'],
         loop: {},
-        typeSpeed: 50,
+        typeSpeed: 100,
         deleteSpeed: 80,
 
     })

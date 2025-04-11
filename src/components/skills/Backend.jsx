@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Back End Development</h3>
+            <h3 className="skills__title">Visual Effects Crafts</h3>
 
 
 
@@ -16,7 +16,7 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">Java</h3>
+                            <h3 className="skills__name">PremierePro</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">Firebase</h3>
+                            <h3 className="skills__name">SV Pro</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">MySQL</h3>
+                            <h3 className="skills__name">Davinci</h3>
                             <span className="skills__level">Basic</span>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">MongoDB</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">AfterEffects</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">JQuery</h3>
+                            <h3 className="skills__name">Cinema4D</h3>
                             <span className="skills__level">Basic</span>
                         </div>
                     </div>
@@ -82,8 +82,8 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">Node JS</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Blender 3D</h3>
+                            <span className="skills__level">Learning</span>
                         </div>
                     </div>
 
