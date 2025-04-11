@@ -49,6 +49,14 @@ const Header = () => {
             </li>
 
 
+            <li className="nav__item">
+              <a href="#crafts" className="nav__link">
+                <i className="uil uil-scenery nav__icon"></i> Motion Graphics
+              </a>
+            </li>
+
+
+
 
 
             <li className="nav__item">
@@ -58,14 +66,7 @@ const Header = () => {
             </li>
 
 
-            <li className="nav__item">
-              <a href="#themisc" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i> Miscellaneous
-              </a>
-            </li>
-
-
-
+     
 
 
           </ul>

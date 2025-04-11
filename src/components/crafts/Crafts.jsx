@@ -24,9 +24,9 @@ const Crafts = () => {
   return (
     <div>
       <section className="crafts section" id="crafts">
-        <h2 className="section__title">VE Craftsmanship</h2>
+        <h2 className="section__title">Visual Craftsmanship</h2>
         <span className="section__subtitle">
-          Video Editing projects - Motion Graphics - Filmmaking <i className="bx bxs-videos"></i>
+          Video Editing Projects - Motion Graphics - Filmmaking <i className="bx bxs-videos"></i>
         </span>
 
         <div className="crafts__container container grid">

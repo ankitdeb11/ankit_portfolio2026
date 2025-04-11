@@ -70,8 +70,8 @@ const Backend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">Cinema4D</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Photoshop</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 

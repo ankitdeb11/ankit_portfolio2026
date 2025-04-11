@@ -5,7 +5,7 @@ const Socials = () => {
         <div className="home__social">
 
 
-            <a href="https://twitter.com/ankitdeb7722" className="home__social-icon" rel="noreferrer" target="_blank">
+            <a href="https://x.com/dc_vfx" className="home__social-icon" rel="noreferrer" target="_blank">
             <i class="uil uil-twitter"></i>
             </a>
 

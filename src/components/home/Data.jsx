@@ -84,8 +84,8 @@ const Data = () => {
             </p>
 
 
-            <a href="#contact" className="button button--flex">
-                Let's connect!
+            <a href="#projects" className="button button--flex">
+                View my work!
 
                 {/* SVG Path from here  */}
                 <svg
