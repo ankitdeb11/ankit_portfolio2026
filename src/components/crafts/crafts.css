@@ -33,3 +33,26 @@
   font-size: 1rem;
   color: var(--text-color);
 }
+
+/* New styles for "deeper look" line */
+.crafts__more-link {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3rem; /* increased from 0.8rem to 3rem for better spacing */
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+
+.crafts__link {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 4px;
+  transition: color 0.2s ease;
+}
+
+.crafts__link:hover {
+  color: #0056b3;
+}
+

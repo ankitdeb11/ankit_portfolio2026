@@ -31,6 +31,19 @@ const Crafts = () => {
           </div>
         ))}
       </div>
+
+      {/* This part now moved below the videos */}
+      <p className="crafts__more-link">
+        Wish to have a better look?{' '}
+        <a
+          href="https://drive.google.com/drive/u/2/folders/1nmr2bOZGvGU2qFzZ5Vx6TmImRfjY2bMI"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="crafts__link"
+        >
+          Click here for more video editing!
+        </a>
+      </p>
     </section>
   );
 };
