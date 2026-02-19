@@ -24,7 +24,7 @@ const Qualifications = () => {
             <i className="uil uil-graduation-cap qualifications__icon"></i> Education
           </div>
 
-          <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"}  onClick={() => toggleTab(2)}>
+          <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(2)}>
             <i className="uil uil-briefcase-alt qualifications__icon"></i> Experience
           </div>
 
@@ -76,7 +76,7 @@ const Qualifications = () => {
 
                 <div className="qualifications__calender">
                   <i class="uil uil-calendar-alt"> </i>
-                  2018 - 2020 
+                  2018 - 2020
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ const Qualifications = () => {
 
                 <div className="qualifications__calender">
                   <i class="uil uil-calendar-alt"> </i>
-                  2016 - 2018 
+                  2016 - 2018
                 </div>
               </div>
 
@@ -183,6 +183,7 @@ const Qualifications = () => {
               </div>
 
             </div>
+
 
 
 

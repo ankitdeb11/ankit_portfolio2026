@@ -3,7 +3,7 @@ import React from 'react'
 const Frontend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Software Development</h3>
+            <h3 className="skills__title">Frontend Development</h3>
 
 
 
@@ -87,8 +87,8 @@ const Frontend = () => {
 
 
                         <div>
-                            <h3 className="skills__name">MongoDB</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">Figma</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
 
