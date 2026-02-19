@@ -36,7 +36,7 @@ const Crafts = () => {
       <p className="crafts__more-link">
         Wish to have a better look?{' '}
         <a
-          href="https://drive.google.com/drive/u/2/folders/1nmr2bOZGvGU2qFzZ5Vx6TmImRfjY2bMI"
+          href="https://drive.google.com/drive/folders/1RF4FzHv8GQjfYelRMuihMVRYUUArwJSG?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="crafts__link"

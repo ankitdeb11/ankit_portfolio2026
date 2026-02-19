@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Crafts from './components/crafts/Crafts';
 import Footer from './components/footer/Footer';
+import GraphicDesign from './components/graphics/GraphicDesign';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Projects />
         <Crafts />
+        <GraphicDesign />
         <Qualifications />
         <Contact />
         <Footer />
