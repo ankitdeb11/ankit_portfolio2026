@@ -29,7 +29,7 @@ const Footer = () => {
                         <i class='bx bxl-discord-alt' ></i>
                     </a>
 
-                    <a href="https://www.instagram.com/" className="footer__social-link" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/codec_visuals/" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i class='bx bxl-instagram'></i>
                     </a>
 
