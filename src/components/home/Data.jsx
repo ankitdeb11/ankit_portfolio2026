@@ -27,7 +27,7 @@ const Data = () => {
 
             </h1>
 
-            <h3 className="home__subtitle">Product Engineer</h3>
+            <h3 className="home__subtitle">Design Engineer</h3>
 
             <p className="home__description">
                 Elevating experiences through code, crafting digital dreams. Glad to have you onboard, champ! <i className="uil uil-smile-beam"></i>
