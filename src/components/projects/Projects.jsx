@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <section className="projects section" id="projects">
             <h2 className="section__title">Projects</h2>
-            <span className="section__subtitle">Talk is cheap! Let's delve inside Code <i class='bx bx-coffee'></i>
+            <span className="section__subtitle">Let's delve inside Product Design <i class='bx bx-coffee'></i>
             </span>
 
 
@@ -183,87 +183,79 @@ const Projects = () => {
 
 
 
-                {/* AREA FOR Futurize PROJECT  */}
-
-
                 <div className="projects__content">
 
-
-
                     <div>
-                        {/* <i className="uil uil-heart-medical projects__icon"></i> */}
-                        <i class="uil uil-rupee-sign projects__icon"></i>
-                        <h3 className="projects__title">Futurize - Investments Guidance Platform</h3>
-
+                        <i className="uil uil-process projects__icon"></i>
+                        <h3 className="projects__title">DFlow - Workflow Orchestration Framework</h3>
                     </div>
 
-
-                    <span onClick={() => toggleTab(3)} className="projects__button">View more <i className="uil uil-arrow-right projects__button-icon"></i></span>
-
+                    <span onClick={() => toggleTab(3)} className="projects__button">
+                        View more <i className="uil uil-arrow-right projects__button-icon"></i>
+                    </span>
 
                     <div className={toggleState === 3 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
-                            <h3 className="projects__modal-title">Futurize</h3>
-                            <p className="projects__modal-description">Seeking data-driven investment success? We've got you covered. Invest with utmost confidence! </p>
-
+                            <h3 className="projects__modal-title">DFlow</h3>
+                            <p className="projects__modal-description">
+                                A powerful workflow orchestration framework for building scalable and reproducible data pipelines.
+                            </p>
 
                             <ul className="projects__modal-projects grid">
 
-
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-
                                     <p className="projects__modal-info">
-                                        ML-driven platform optimizing investment decisions with fake news detection and advanced analytics.
+                                        Kubernetes-native workflow engine enabling scalable and cloud-based pipeline execution.
                                     </p>
                                 </li>
 
-
-
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-
                                     <p className="projects__modal-info">
-                                        Enhances user's financial decision-making process, improves efficiency by 20% and growth by 10%.
+                                        Supports DAG-based workflows, parallel execution, and efficient resource management.
                                     </p>
                                 </li>
 
-
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-
                                     <p className="projects__modal-info">
-                                        Technology Stack: HTML, CSS, JavaScript, Python, Django, Flask, Ngrok, Keras, TensorFlow, ML Tools
-
+                                        Technology Stack: Python, Kubernetes, Docker, Argo Workflows
                                     </p>
                                 </li>
 
-
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-
-                                    <p className="projects__modal-info">Role: Front End Developer [Live Projects will be added soon]</p>
-                                </li>
-
-
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-
-
-                                    <p className="projects__modal-info">Link and Results: {' '}
-                                        <a href="https://github.com/ankitdeb11/Futurize-ML-model">GitHub Repository</a>
+                                    <p className="projects__modal-info">
+                                        Role: Contributor / Learner
                                     </p>
-
-
                                 </li>
 
+                                {/* GitHub Link */}
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-github projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        GitHub:{" "}
+                                        <a href="https://github.com/dflow-sh/dflow" target="_blank" rel="noopener noreferrer">
+                                            View Repository
+                                        </a>
+                                    </p>
+                                </li>
+
+                                {/* Live Website */}
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-external-link-alt projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Live Site:{" "}
+                                        <a href="https://dflow.sh/" target="_blank" rel="noopener noreferrer">
+                                            Visit Official Website
+                                        </a>
+                                    </p>
+                                </li>
 
                             </ul>
-
-
-
 
                         </div>
                     </div>

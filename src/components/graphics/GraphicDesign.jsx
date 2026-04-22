@@ -19,9 +19,9 @@ const GraphicDesign = () => {
 
   return (
     <section className="graphicdesign section" id="graphicdesign">
-      <h2 className="section__title">Graphic Design</h2>
+      <h2 className="section__title">Product Design</h2>
       <span className="section__subtitle">
-        Posters - Branding - Digital Illustrations <i className="bx bxs-palette"></i>
+        UX - Branding - Digital Illustrations <i className="bx bxs-palette"></i>
       </span>
 
       <div className="graphicdesign__bento container">
@@ -44,7 +44,7 @@ const GraphicDesign = () => {
           rel="noopener noreferrer"
           className="graphicdesign__link"
         >
-         Graphic Design
+         Product Design
         </a>
       </p>
     </section>
