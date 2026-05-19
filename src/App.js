@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      
+
       <main className='main'>
         <Home />
         <About />
@@ -30,13 +30,15 @@ function App() {
         <Footer />
       </main>
 
-      //going to make changes in code now, so this is the version which was doing well!
+
 
 
     </>
   );
 }
 
+
+//going to make changes in code now, so this is the version which was doing well!
 
 
 
